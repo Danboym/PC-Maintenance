@@ -375,7 +375,7 @@
                                         <% if ("OLD".equals(device.getStatus())) { %>
                                             <button class="btn btn-sm btn-danger me-1" 
                                                     onclick="replaceEquipment('NetworkDevice', <%= device.getId() %>)">
-                                                <i class="bi bi-arrow-repeat"></i> Replace
+                                                <i class="bi bi-arrow-repeat"></i>  Replace
                                             </button>
                                         <% } %>
                                         <!-- Update Status -->
